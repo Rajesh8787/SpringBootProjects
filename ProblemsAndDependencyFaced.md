@@ -1,0 +1,2 @@
+# resolvwed maven configuration problem
+
