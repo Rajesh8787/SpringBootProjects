@@ -17,22 +17,31 @@ import java.sql.SQLOutput;
 //https://medium.com/javarevisited/difference-between-controller-and-restcontroller-in-spring-boot-and-spring-mvc-216578ad445f)
 
 //RestController introduced in spring 4.0 while COntroller in spring 2.5.
-///adde name
+
 
 @RestController
 
-//@RequestMapping : is used for map the api to all existing api'.
-@RequestMapping("beast")
+//@RequestMapping : is used for map to all existing api which is inside the controller class'.
+@RequestMapping("/")
 
 public class BeastAirwaysController {
 
-   /* @Autowired
-    private BeastService beastService;*/
-    @GetMapping(value = "/" ,produces ="application/json")
-    public AirwaysResponce getHome(){
-        //Type sout and press Tab for System.out.println();
-        AirwaysResponce airwaysResponce = new AirwaysResponce("Welcome to Beast Airways");
-        return airwaysResponce;
+
+    // creating a simple Restful API
+
+    @GetMapping("home")
+    // access modifier+ static/default + data type+ method name  asddm
+    public String getHome(){
+        return "Hello welcome to the Beast Airways";
+
+//   /* @Autowired
+//    private BeastService beastService;*/
+//    @GetMapping(value = "/" ,produces ="application/json")
+//    public AirwaysResponce getHome(){
+//        //Type sout and press Tab for System.out.println();
+//        AirwaysResponce airwaysResponce = new AirwaysResponce("Welcome to Beast Airways");
+//        return airwaysResponce;
+
 
 
     }

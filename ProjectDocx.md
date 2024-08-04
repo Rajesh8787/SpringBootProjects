@@ -5,8 +5,20 @@ The following was discovered as part of building this project:
 
 # Getting Started
 
+# Creating a Scalable Airline Reservation System
 
-# Steps for Spring Boot Application
+
+Requirement Analysis: 
+1. Java version 17  springBoot framework
+2. Database:  MYSQL
+3. Cloud:  AWS
+4. CI/CP: 
+5. Repo
+6. 
+
+
+# Steps for creating Airline Reservation System application using spring boot.
+
 1. Go to https://start.spring.io/
 2. Select Project Build tool:  Maven 
 3. Java version- 1.8

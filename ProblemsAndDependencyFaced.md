@@ -1,2 +1,2 @@
-# resolvwed maven configuration problem
+# resolved maven configuration problem
 
